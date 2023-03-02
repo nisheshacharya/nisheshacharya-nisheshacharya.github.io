@@ -18,7 +18,7 @@ function compoundInterest(initialAmount, interestRate, numberOfYears){
     const numberOfMonths= numberOfYears*12;
     let balanceAmount = initialAmount;
     for(let i = 0; i<numberOfMonths; i++){
-        interest = balanceAmount*(0.01*monthlyInterestRate); 
+        let interest = balanceAmount*(0.01*monthlyInterestRate); 
         balanceAmount = balanceAmount + interest;
     }
     return balanceAmount;
