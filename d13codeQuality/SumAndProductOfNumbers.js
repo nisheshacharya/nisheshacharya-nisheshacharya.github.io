@@ -25,3 +25,5 @@ export const getProduct = function (number){
 
     return product;
 }
+exports.getProduct;
+exports.getSum;
